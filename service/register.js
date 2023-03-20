@@ -3,7 +3,7 @@ AWS.config.update({ region: 'us-west-2' });
 
 const util = require('../utils/util');
 const bcrypt = require('bcryptjs');
-
+// api key: BMZXVt1Sdt6jz4hKN7Ix25oHWlo30BTZGLvVwKnd
 const dynamodb = new AWS.DynamoDB.DocumentClient();
 const userTable = 'bit465-final-users';
 

@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk');
 AWS.config.update({ region: 'us-west-2' });
-
+// api key: BMZXVt1Sdt6jz4hKN7Ix25oHWlo30BTZGLvVwKnd
 const bcrypt = require('bcryptjs');
 const auth = require('../utils/auth');
 const util = require('../utils/util');
